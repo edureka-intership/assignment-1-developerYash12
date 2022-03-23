@@ -1,129 +1,164 @@
 <html>
-    <head>
-        <title>Food List</title>
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-                background-color: #f4eaea;
-            }
-            .header{
-                height: 60px;
-                width: 100%;
-                font-weight: bold;
-                font-size: larger;
-                background-color: darkslategrey;
-                color: rgb(49, 47, 47);
-                text-align: right;       
-            }
-            .header button{
-                  background-color: 9f9f9f;
-                color: black;
-                font-weight: 500;
-                height: 31px;
-                border-radius: 7px;
-                display: inline-table;           
-            }
-            #container{
-                height: 640px;
-                width: 21%;
-                margin: 6px;
-                margin-left: 6px;
-                margin-top: 6px;
-                border: 2px solid rgb(16, 14, 14);
-            }
-            .filter h2 p{
-                margin-left: 12px;
-               font-weight: bold;
-               border: 2px solid rgb(136, 115, 115)           
-            }
-            .contant{
-                width: 321%;
-                margin-left: 126%;
-                height: 45vh;
-                margin-top: -586px;
-            }
-            .contant img{
-                height: 36vh;
-                width: 33%;
-                padding: 40px;
-                border-radius: 74px;
-            }
-            .headline{
-                display: inline flow-root list-item;
-                margin-bottom: -175px; 
-            }
-            .line{
-                display: inline flow-root list-item;
-                margin-bottom: -175px; 
-            }  
-        </style>
-             <body>
-             <!------------------------------------first page------------------------------------------->
 
-            <div class="header">
-                <button type="submit" style="margin-left: 12px;">Login With Gmail</button>
-                <button type="submit">Sign Up</button>
-           </div>
-               <!---------------------------------second page--------------------------------------------->
-                <div id="container">
-                    <div class="Filter">
-                      <center>
-                          <h2>Filter</h2>
-                        <p>Cuisine Filter</p><br><br>
-                            <input type="radio">
-                            <label>All</label><br><br>
-                            <input type="radio">
-                            <label>Northen Indian</label><br><br>
-                            <input type="radio">
-                            <label>South Indian</label><br><br>
-                            <input type="Radio">
-                            <label>Chinese</label><br><br>
-                            <input type="Radio">
-                            <label>Fast Food</label><br><br>
-                            <input type="Radio">
-                            <label>Street Food</label><br><br>
-                        <hr><br>
-                        <h2>Cost Filter</h2><br><br>
-                             <input type="Radio">
-                             <label>All</label><br><br>
-                             <input type="Radio">
-                             <label>100-300</label><br><br>
-                             <input type="Radio">
-                             <label>301-500</label><br><br>
-                             <input type="Radio">
-                             <label>501-700</label><br><br>
-                             <input type="Radio">
-                             <label>701-900</label><br><br>
-                             <input type="Radio">
-                             <label>901-1500</label><br><br>
-                     </center>
+<head>
+    <title>Food List</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #f4eaea;
+        }
+
+        .header {
+            height: 60px;
+            width: 100%;
+            font-weight: bold;
+            font-size: larger;
+            background-color: darkslategrey;
+            color: rgb(49, 47, 47);
+            text-align: right;
+        }
+
+        .header button {
+            background-color: 9f9f9f;
+            color: black;
+            font-weight: 500;
+            height: 31px;
+            border-radius: 7px;
+            display: inline-table;
+        }
+
+        #container {
+            height: 640px;
+            width: 21%;
+            margin: 6px;
+            margin-left: 6px;
+            margin-top: 6px;
+            border: 2px solid rgb(16, 14, 14);
+        }
+
+        .filter h2 p {
+            margin-left: 12px;
+            font-weight: bold;
+            border: 2px solid rgb(136, 115, 115)
+        }
+
+        .contant {
+            width: 321%;
+            margin-left: 126%;
+            height: 45vh;
+            margin-top: -586px;
+        }
+
+
+        .rest-1{
+            display: flex;
+            width: 100%;
+            height: 280px;
+        }
+        .rest-image{
+            width: 49%;
+        }
+        .rest-image > img{
+        width: 80%;
+    margin-top: 5%;
+    border-radius: 10%;
+}
+        .headline {
+           margin-top: 5%;
+        }
+
+        .rest-2{
+            display: flex;
+            width: 100%;
+            height: 280px;
+        }
+        .line {
+            display: inline flow-root list-item;
+            margin-bottom: -175px;
+        }
+    </style>
+
+<body>
+    <!------------------------------------first page------------------------------------------->
+
+    <div class="header">
+        <button type="submit" style="margin-left: 12px;">Login With Gmail</button>
+        <button type="submit">Sign Up</button>
+    </div>
+    <!---------------------------------second page--------------------------------------------->
+    <div id="container">
+        <div class="Filter">
+            <center>
+                <h2>Filter</h2>
+                <p>Cuisine Filter</p><br><br>
+                <input type="radio">
+                <label>All</label><br><br>
+                <input type="radio">
+                <label>Northen Indian</label><br><br>
+                <input type="radio">
+                <label>South Indian</label><br><br>
+                <input type="Radio">
+                <label>Chinese</label><br><br>
+                <input type="Radio">
+                <label>Fast Food</label><br><br>
+                <input type="Radio">
+                <label>Street Food</label><br><br>
+                <hr><br>
+                <h2>Cost Filter</h2><br><br>
+                <input type="Radio">
+                <label>All</label><br><br>
+                <input type="Radio">
+                <label>100-300</label><br><br>
+                <input type="Radio">
+                <label>301-500</label><br><br>
+                <input type="Radio">
+                <label>501-700</label><br><br>
+                <input type="Radio">
+                <label>701-900</label><br><br>
+                <input type="Radio">
+                <label>901-1500</label><br><br>
+            </center>
+        </div>
+        <!----------------------------Third page---------------------------------------->
+
+        <div class="contant">
+            <div class="rest-1">
+
+                <div class="rest-image">
+                    
+                    <img src="pizza.jpg" alt="pizza">
+                </div>
+                <div class="headline">
+                    <h3>Domino's Pizza</h3>
+                    <p>Ashok Vihar Colony, New Delhi <br> Very Good <br> Rs - 699/-
+                        <br>
+                        <button style="background-color: rgb(69, 69, 208); color: white;">Break Fast</button>
+                        <button style="background-color: rgb(51, 209, 69); color: white;">Lunch</button><br>
+                        <button style="background-color: rgb(243, 40, 50); color: white;">North Indian</button>
+                        <button style="background-color: rgb(232, 143, 28); color: white;">Fast Food</button>
+                </div>
+            </div>
+            <hr>
+            
+                <div class="rest-2">
+                    <div class="rest-image">      
+                        <img src="pandit.jpg" alt="paratha">
                     </div>
-                 <!----------------------------Third page---------------------------------------->
-
-                     <div class="contant">
-                         <img src="images/pizza.jpg" alt="pizza">
-                           <div class="headline">
-                               <h3>Domino's Pizza</h3>
-                               <p>Ashok Vihar Colony, New Delhi <br> Very Good <br> Rs - 699/-
-                            <br>
+                        <div class="headline">
+                        <h4>Pandit Ji Paratha Hut</h4>
+                        <p>Shop 44, Plot C, Ashok Vihar Phase 2, Chincholi, Delhi-110C <br> Good <br> Rs - 450/- <br>
                             <button style="background-color: rgb(69, 69, 208); color: white;">Break Fast</button>
-                            <button style="background-color: rgb(51, 209, 69); color: white;">Lunch</button><br>
+                            <button style="background-color: rgb(51, 209, 69); color: white;">Dinner</button><br>
                             <button style="background-color: rgb(243, 40, 50); color: white;">North Indian</button>
-                            <button style="background-color: rgb(232, 143, 28); color: white;">Fast Food</button>
-                            </div><hr>
-                            <div class="last">
-                                <img src="images/pandit.jpg" alt="paratha">
-                                <div class="line">
-                               <h4>Pandit Ji Paratha Hut</h4>
-                               <p>Shop 44, Plot C, Ashok Vihar Phase 2, Chincholi, Delhi-110C <br> Good <br> Rs - 450/- <br>
-                                <button style="background-color: rgb(69, 69, 208); color: white;">Break Fast</button>
-                                <button style="background-color: rgb(51, 209, 69); color: white;">Dinner</button><br>
-                                <button style="background-color: rgb(243, 40, 50); color: white;">North Indian</button>
-                                <button style="background-color: rgb(232, 143, 28); color:white;">Street Food</button>
-                                </div>
-                            </div>
-                     </div>
-          </body>
-    </head>
+                            <button style="background-color: rgb(232, 143, 28); color:white;">Street Food</button>
+                        </div>
+                    </div>
+                        
+        </div>
+
+    </div>
+</body>
+</head>
+
 </html>
